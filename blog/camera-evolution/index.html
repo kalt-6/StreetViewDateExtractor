@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of Google Maps Street View Cameras: Gen 1 to Gen 4 | Street View Date Finder</title>
+    <meta name="description" content="Explore the history and technical upgrades of Google Maps Street View cameras, from the blurry Gen 1 lenses to the high-definition Gen 4 systems.">
+    
+    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <style>
+        .article-container { max-width: 800px; margin: 4rem auto; background: var(--bg-card); padding: 2.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); }
+        .article-container h1 { color: var(--accent-primary); margin-top: 0; margin-bottom: 0.5rem; font-size: 2.2rem; line-height: 1.2; }
+        .article-container .article-meta { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; display: flex; justify-content: space-between; }
+        .article-container h2 { color: var(--text-primary); margin-top: 2.5rem; font-size: 1.5rem; }
+        .article-container h3 { color: var(--text-primary); margin-top: 1.5rem; font-size: 1.2rem; }
+        .article-container p, .article-container li { color: var(--text-secondary); margin-bottom: 1.2rem; line-height: 1.8; font-size: 1.05rem; }
+        .article-container a { color: var(--accent-primary); text-decoration: none; }
+        .article-container a:hover { text-decoration: underline; }
+        .article-container .tool-promo { background: linear-gradient(145deg, rgba(138, 43, 226, 0.05), rgba(138, 43, 226, 0.15)); border: 1px solid var(--accent-primary); padding: 1.5rem; border-radius: 8px; margin-top: 3rem; text-align: center; }
+        .article-container .tool-promo h3 { margin-top: 0; color: var(--accent-primary); }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div>
+                <a href="/" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 12px;">
+                    <img src="/logo.png" alt="Street View Date Finder Logo" style="width: 32px; height: 32px; border-radius: 4px;">
+                    <h1 style="margin: 0; font-size: 1.2rem;">Street View Date Finder</h1>
+                </a>
+            </div>
+            <nav>
+                <a href="/">The Tool</a>
+                <a href="/#how-it-works">How it Works</a>
+                <a href="/#guide">Guide</a>
+                <a href="/#use-cases">Use Cases</a>
+                <a href="/#faq">FAQ</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="article-container">
+        <h1>The Evolution of Google Maps Street View Cameras: Gen 1 to Gen 4</h1>
+        <div class="article-meta">
+            <span>Published: March 2026</span>
+            <span>Category: Tech & History</span>
+        </div>
+
+        <p>When Google launched Street View in 2007, the idea of mapping the entire world in 360-degree panoramic photos seemed like science fiction. Today, it is an essential part of daily navigation, OSINT research, and competitive GeoGuessr gameplay.</p>
+        
+        <p>But the cameras strapped to the roofs of those iconic Google cars haven't stayed the same. Over the past two decades, they have undergone massive technical overhauls. Here is how you can identify which generation of camera snapped the image you are looking at.</p>
+
+        <h2>Generation 1 (2007 – 2008): The Blurry Beginnings</h2>
+        <p>If you drop into a Street View image and it looks like it was photographed through a dirty fishbowl, you are looking at Gen 1 imagery. These early cameras used extremely low-resolution sensors. The images are highly compressed, lack dynamic range (the skies are often completely blown out and white), and the stitching between the different lenses is frequently misaligned.</p>
+        <p><em>Pro Tip for GeoGuessr:</em> Gen 1 coverage is relatively rare today and is mostly restricted to the United States, Australia, and parts of New Zealand.</p>
+
+        <h2>Generation 2 (2008 – 2009): The "Halo" Era</h2>
+        <p>Gen 2 cameras brought a much-needed bump in resolution and better color balance. However, they are most famous for a distinct visual artifact: the "halo." If you look straight down or up at the sun in a Gen 2 panorama, you will often see a circular, chromatic aberration or blur ring.</p>
+        <p>While a massive improvement over Gen 1, these cameras still struggled in low-light environments and heavy shadows.</p>
+
+        <h2>Generation 3 (2009 – 2017): The Global Standard</h2>
+        <p>Generation 3 changed everything. This rig featured a massive 15-lens rosette system capable of capturing 75-megapixel panoramas. The skies became beautifully blue, the stitching became nearly seamless, and the overall clarity allowed users to read street signs from down the block.</p>
+        <p>Because Gen 3 was deployed during Google's most aggressive global expansion phase, it remains the most common camera generation you will encounter when exploring rural areas in Europe, South America, and Asia.</p>
+
+        <h2>Generation 4 (2017 – Present): The HD Revolution</h2>
+        <p>In 2017, Google rolled out the Gen 4 system. It abandoned the 15-lens rosette for a sleeker, owl-like design featuring 7 high-definition, 20-megapixel cameras (totaling 140 megapixels). The color grading is incredibly vibrant, and the low-light performance is staggering.</p>
+        <p>Gen 4 cars are also equipped with dual LiDAR scanners to capture hyper-accurate 3D depth data, making the panoramas load and transition much smoother.</p>
+
+        <h2>Why Camera Generations Matter</h2>
+        <p>For researchers and players, recognizing the camera generation is a cheat code for estimating the capture year. If you see Gen 4 imagery, you instantly know the photo was taken no earlier than 2017.</p>
+        <p>However, camera generations only give you a broad multi-year window. When you need absolute precision, you have to look past the pixels and into the metadata.</p>
+        
+        <div class="tool-promo">
+            <h3>Find the Exact Time and Date</h3>
+            <p>Don't rely on camera generations alone. Our free tool uses binary search to extract the exact, second-by-second timestamp of any Street View panorama directly from Google's backend.</p>
+            <a href="/" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background: var(--accent-primary); color: white; border-radius: 6px; font-weight: bold;">Extract a Timestamp Now</a>
+        </div>
+    </div>
+</body>
+</html>
